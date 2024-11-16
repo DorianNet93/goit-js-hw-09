@@ -16,3 +16,87 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-item {
+  width: calc((100% - 32px) / 3);
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/*  */
+
+.feedback-form {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+input {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  border: 1px solid #808080;
+}
+
+
+textarea {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border-radius: 2px;
+  border: 1px solid #808080;
+  resize: none;
+}
+
+form button {
+  width: 95px;
+  border: none;
+  background-color: #4E75FF;
+  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+form button:hover {
+  background-color: #6C8CFF;
+}
