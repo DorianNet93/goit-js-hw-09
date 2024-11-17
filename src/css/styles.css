@@ -80,6 +80,7 @@ textarea {
   border-radius: 2px;
   border: 1px solid #808080;
   resize: none;
+  padding: 8px 16px;
 }
 
 form button {
@@ -99,4 +100,8 @@ form button {
 
 form button:hover {
   background-color: #6C8CFF;
+}
+
+form input {
+  padding: 8px 16px;
 }
